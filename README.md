@@ -17,6 +17,7 @@ ____
 
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%A0%87%E8%AF%86%E7%AC%A6.md">Java 标识符</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md">Java 数据类型</a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.md">Java 数据类型转换</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E%E4%B8%8E%E6%95%B4%E5%9E%8B%E5%AD%97%E9%9D%A2%E9%87%8F.md">Java 变量声明与整型字面量</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%B5%AE%E7%82%B9%E5%9E%8B%E5%AD%97%E9%9D%A2%E9%87%8F.md">Java 浮点型字面量</a> 
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F.md">Java 局部变量</a>  
@@ -33,7 +34,7 @@ ____
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E9%80%89%E6%8B%A9%E7%BB%93%E6%9E%84%E8%AF%AD%E5%8F%A5.md">Java 选择结构语句</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6.md">Java 流程控制</a>
 
-<a href=""></a>
+
 <a href=""></a>
 
 
