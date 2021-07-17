@@ -29,6 +29,7 @@ sum = varNumber1+varNumber2 //一个拥有两步运算的表达式
 > + 条件运算符
 > + 位运算符
 
+
 <br>
 <br>
 
@@ -52,6 +53,8 @@ sum = varNumber1+varNumber2 //一个拥有两步运算的表达式
 > |++|自增1|int num=1;n++或（++n）|
 > |--|自减1|int num=5;n--或（--n）|
 
+<br>
+<br>
 
 ```java
 
