@@ -43,7 +43,7 @@ int n = 100;
 <br>  
 <br>  
 
-![java内存细分](/images/java/java内存细分.png)
+![java内存细分](/images/Java/java内存细分.png)
 
 <br>  
 

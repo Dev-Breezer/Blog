@@ -36,13 +36,9 @@ char ch = (char)65536;
 
 <br>
 
-```mermaid
-graph LR;
-  byte-->short-->int-->long
-  char-->int-.->float-->double
-  long-.->float & double
-  int-->double
-```
+
+![Java 数据类型](/images/Java/java数据类型2.png)
+
 
 <br>
 <br>
