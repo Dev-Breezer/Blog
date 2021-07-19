@@ -117,7 +117,7 @@ int[] arr = {1,2,3,4,5,6,7,8,9,10}
 
 <br>
 
-![Java 数组引用](./images/Java/java数组引用.png)
+![Java 数组引用](/images/Java/java数组引用.png)
 
 <br>
 
