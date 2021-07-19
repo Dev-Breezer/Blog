@@ -412,3 +412,38 @@ public class VariableParameterSearch {
 ```java
 public void sum(int... n){}
 ```
+
+<br>
+
+```java
+package JavaMethod;
+
+/**
+ * 文档注释
+ * 关于可变参数列表和重载的问题
+ *
+ * @author Cui-Jianwen
+ * @version 1.0
+ */
+
+public class VPReload {
+    //  可变参数列表所在的方法是最后被访问的
+    public int plus(int... n){
+        int sum = 0;
+        for(int a : n){
+            sum += a;
+        }
+        System.out.println("带可变参数的方法被调用：");
+        return sum;
+    }
+    public int plus(int a, int b){
+        int sum = a + b;
+        System.out.println("不带可变参数的方法被调用：");
+        return sum;
+    }
+    public static void main(String[] args){
+        VPReload vpr = new VPReload();
+        System.out.println("和为：" + vpr.plus(1, 2));
+    }
+}
+```
