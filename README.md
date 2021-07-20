@@ -1,19 +1,10 @@
-# 专栏博客
-
-____
-
-### 掘金：
-### CSDN:
-### 开源中国：
-
----  
-
-<br>  
-<br> 
-<br>  
 
 
-## Java学习笔记  
+
+
+# Java 学习笔记  
+
+## Java 基础
 
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%A0%87%E8%AF%86%E7%AC%A6.md">Java 标识符</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md">Java 数据类型</a>
@@ -36,9 +27,16 @@ ____
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%BE%AA%E7%8E%AF%E7%BB%93%E6%9E%84.md
 ">Java 循环结构</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%95%B0%E7%BB%84.md">Java 数组</a>
-<a href=""></a>
-<a href=""></a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%96%B9%E6%B3%95.md">Java 方法</a>  
 
+## Java 面向对象
+
+<a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1.md">Java 类和对象</a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
 
 <br>  
 <br> 
