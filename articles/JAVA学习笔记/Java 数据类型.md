@@ -9,7 +9,7 @@
 
 <br>  
 
-![Java数据类型思维导图](/images/Java/java数据类型.png)  
+![Java数据类型思维导图](/images/Java/java数据类型1.png)  
 
 <br>  
 <br> 
@@ -20,7 +20,7 @@
 <br>  
 <br> 
 
- |&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;数据类型&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;说明&emsp;&emsp;&emsp;&emsp;&emsp;|&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;字节&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|  
+|数据类型|说明|字节|  
 |:-:|:-:|:-:|  
 |byte|字节型|1|  
 |short|短整型|2| 
@@ -39,9 +39,9 @@
 <br>  
 
 ### 备注:
-> 1、1.4E-45表示1.4X10-45，读作1.4乘以10的负45次方  
-2、boolean包括true和false两个值  
-3、char类型占2个字节，即16位  
+> **1、1.4E-45表示1.4X10-45，读作1.4乘以10的负45次方**  
+2、**boolean包括true和false两个值**  
+3、**char类型占2个字节，即16位**  
 
 <br>
 <br>
