@@ -31,9 +31,9 @@
 
 ## Java 面向对象
 
-<a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1.md">Java 类和对象</a>
-<a href=""></a>
-<a href=""></a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1.md">Java 类和对象</a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E5%8C%96%E4%B8%8E%20new%20%E5%85%B3%E9%94%AE%E5%AD%97.md">Java 对象实例化与 new 关键字</a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%9E%84%E9%80%A0%E6%96%B9%E6%B3%95.md">Java 构造方法</a>
 <a href=""></a>
 <a href=""></a>
 <a href=""></a>
