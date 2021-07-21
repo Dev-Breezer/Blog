@@ -392,6 +392,3 @@ public class TwoDimensionalityArray {
     }
 }
 ```
-
-<br>
-<br>
