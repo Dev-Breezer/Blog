@@ -39,7 +39,10 @@
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20static%20%E5%85%B3%E9%94%AE%E5%AD%97.md">Java static 关键字</a>  
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E4%BB%A3%E7%A0%81%E5%9D%97.md">Java 代码块</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E7%BB%A7%E6%89%BF%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%89%B9%E7%82%B9.md">Java 继承的概念和特点</a>
-<a href=""></a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20final%20%E5%85%B3%E9%94%AE%E5%AD%97.md">Java final 关键字</a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20object%20%E7%B1%BB.md">Java Object 类</a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%B3%A8%E8%A7%A3.md">Java 注解</a>
+> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%A6%82%E8%BF%B0.md">设计模式概述</a>
 <a href=""></a>
 <a href=""></a>
 <a href=""></a>
