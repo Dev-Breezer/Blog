@@ -51,3 +51,7 @@
 > 4、包含抽象方法的类是抽象类  
 > 5、抽象类中可以没有抽象方法
 > 6、static、final、private 不能与 abstract 并存
+
+&emsp;
+
+### Java 内部类
