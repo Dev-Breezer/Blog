@@ -46,7 +46,7 @@
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%A4%9A%E6%80%81%E7%9A%84%E6%A6%82%E5%BF%B5%E5%8F%8A%E5%85%B6%E5%AE%9E%E7%8E%B0.md">Java 多态的概念及其实现</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%8A%BD%E8%B1%A1%E7%B1%BB.md">Java 抽象类</a>
 > + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%8E%A5%E5%8F%A3.md">Java 接口</a>
-<a href=""></a>
+<a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%86%85%E9%83%A8%E7%B1%BB.md">Java 内部类</a>
 <a href=""></a>
 <a href=""></a>
 <a href=""></a>
