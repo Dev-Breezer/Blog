@@ -46,7 +46,7 @@ public static void main(String[] args){}
 &emsp;
 
 ```java
-    package com.demo.test;
+package com.demo.test;
 
 import com.demo.animal.Cat;
 
