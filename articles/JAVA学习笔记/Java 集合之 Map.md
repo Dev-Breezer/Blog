@@ -78,6 +78,93 @@ public class DictionaryDemo {
 
         }
 
+        //  对字典进行查询——通过单词查找注释并输出
+        //  使用 keySet 方法
+        System.out.println("\n************************************");
+        System.out.print("请输入需要查询的 key 值：");
+        String strSearch = console.next();
+
+        //  1. 取得 keySet
+        Set <String> keySet = animal.keySet();
+
+        //  2.遍历 keySet
+        for (String key : keySet){
+            if (strSearch.equals(key)) {
+
+                System.out.println("找到了！" + "键值对为：" + key + "-" + animal.get(key));
+                break;
+
+            }
+        }
+
     }
 }
+```
+
+&emsp;
+
+#### 商品信息管理
+
+&emsp;
+
+### 需求
+
+    使用HashMap对商品信息进行管理
+    其中key为商品编号，value为商品对象
+    对HashMap中的商品信息进行增、删、改、查操作
+
+&emsp;
+
+```java
+package com.demo.set;
+
+import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
+
+import java.util.*;
+
+public class GoodTest {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in);
+
+        //  定义 HashMap 对象
+        Map<String, Goods> goodsMap = new HashMap<String, Goods>();
+        System.out.println("请输入三条商品信息：");
+        int i = 0;
+        while(i < 3){
+            System.out.println("请输入第" + (i+1)+"条商品");
+            System.out.println("请输入商品编号：");
+            String goodsId = console.next();
+            //  判断商品编号是否存在
+            if (goodsMap.containsKey(goodsId)) {
+                System.out.println("该商品编号已经存在！请重新输入");
+                continue;
+            }
+
+            System.out.println("请输入商品名称：");
+            String goodsName = console.next();
+            System.out.println("请输入商品价格");
+            double goodsPrice = 0;
+            try{
+
+                goodsPrice = console.nextDouble();
+            }catch (InputMismatchException e){
+                System.out.println("商品价格的格式不正确，请输入数值型数据！");
+                console.next();
+                continue;
+            }
+
+            Goods goods = new Goods(goodsId, goodsName, goodsPrice);
+            //  将商品信息添加到 HashMap 中
+            goodsMap.put(goodsId,goods);
+            i++;
+        }
+        //  遍历 Map，输出商品信息
+        System.out.println("商品全部信息为：");
+        Iterator <Goods> itGoods = goodsMap.values().iterator();
+        while(itGoods.hasNext()){
+            System.out.println(itGoods.next());
+        }
+    }
+}
+
 ```
