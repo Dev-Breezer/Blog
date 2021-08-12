@@ -1,13 +1,14 @@
 # Java 字符串
 
-&emsp;
+
+
 
 ### Java 字符串概述
 
-&emsp;
+
 
     1. 如何创建String对象
-
+    
     2. String对象的常用方法
     
     3. ==和equals方法的区别
@@ -137,7 +138,7 @@ public class StringDemo2 {
 &emsp;
 
     String具有不可变性，StringBuilder 具有可变性
-
+    
     建议：当频繁操作字符串时，使用StringBuilder
 
 
@@ -149,9 +150,9 @@ public class StringDemo2 {
 
     StringBuilder 和 StringBuffer 方法基本相似
     但是我们推荐使用 StringBuilder。
-
+    
     官方解释：StringBuffer是线程安全的，StringBuilder则没有，所以性能略高。
-
+    
     为什么不使用较为安全的StringBuffer，而是使用 StringBuilder 呢？
     大部分情况下我们在处理字符串时，都是单线程。而线程安全主要是指多线程的情况下。在单线程的情况下我们使用 StringBuilder，除非有特殊需求，我们才会使用 StringBuffer
 
