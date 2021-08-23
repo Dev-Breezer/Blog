@@ -97,7 +97,7 @@ public class FileDemoOne {
         - SequenceInputStream 顺序输入流
         - ByteArrayInputStream 字节数组输入流
         - StringBufferInputStream 缓冲字符输入流
-
+    
     字节输出流OutputStream
         - FileOutputStream 文件输出流
         - PipedOutputStream 管道输出流
@@ -304,13 +304,13 @@ public class FileOutputDemoTwo {
 &emsp;
 
     之前的读写方式都是从硬盘当中读取数据，这种读取方式的缺点也很明显：读取速度慢，读取速度远不及从内存中读取数据，使用缓冲输入/输出可以提高读写数据的速度
-
+    
     缓冲输入流 BufferedInputStream
-
+    
         - 缓冲输入流不能直接读取系统中数据，需要与文件输入流结合
         
             源文件 —读取—> 缓冲输入流 —存入—> byte[] 数组
-
+    
     缓冲输出流 BufferedOutputstream
         
         - 缓冲输出流不能直接写入数据，需要与文件输出流结合
@@ -318,6 +318,8 @@ public class FileOutputDemoTwo {
             写入数据 —读取—> 缓冲输出流 —存入—> 源文件
 
 &emsp;
+
+### 缓冲流案例
 
 ```java
 package com.demo.file;
@@ -354,3 +356,190 @@ public class BufferedDemo {
     }
 }
 ```
+
+
+
+### 字符流
+
+> #### 字符输入流（Reader）
+>
+> Reader
+>
+> > BufferedReader（缓冲字符输入流）
+> >
+> > > LineNumberReader
+> >
+> > CharArrayReader（字符数组输入流）
+> > StringReader（字符串输入流）
+> > InputStreamReader（输入流）
+> >
+> > > FileReader
+> >
+> > PipedReader（管道输入流）
+> > FilterReader（过滤器输入流）
+> >
+> > > PushbackReader
+>
+> #### 字符输出流（Writer）
+>
+> Writer
+>
+> BufferedWriter（缓冲区输出流）
+> CharArrayWriter（字符数组输出流）
+> StringWriter（字符串输出流）
+> OutputStreamWriter（输出流）
+>
+> > FileWriter
+>
+> PipedWriter（管道输出流）
+> FilterWriter（过滤器输出流）
+
+
+
+
+
+### 字节字符转换流案例
+
+
+
+```java
+package com.demo.charstream;
+
+import java.io.*;
+
+public class ReaderDemo {
+    public static void main(String[] args) {
+
+
+        try {
+            FileInputStream fis = new FileInputStream("ReaderDemo.txt");
+            InputStreamReader isr = new InputStreamReader(fis,"utf-8");
+            FileOutputStream fos = new FileOutputStream("ReaderDemo1.txt");
+            OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
+            //  读取数据
+            int n = 0;
+            char[] charBuffer = new char[10];
+
+            //  第一种读取方法
+            /*
+            while((n = isr.read())!= -1){
+                System.out.print((char) n);
+            }
+            */
+
+            //  第二种读取方法
+            while((n = isr.read(charBuffer)) != -1){
+                String s = new String(charBuffer,0, n);
+                System.out.print(s);
+            }
+
+            // 输入方法
+
+            while((n = isr.read(charBuffer)) != -1){
+                osw.write(charBuffer, 0, n);
+                osw.flush();
+            }
+            fis.close();
+            fos.close();
+            isr.close();
+            osw.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+
+
+### 其它字符流
+
+
+
+```java
+package com.demo.charstream;
+
+import java.io.*;
+
+public class ReaderDemo {
+    public static void main(String[] args) {
+
+        // 使用了缓冲流
+        try {
+            FileInputStream fis = new FileInputStream("ReaderDemo.txt");
+            InputStreamReader isr = new InputStreamReader(fis,"utf-8");
+            BufferedReader br = new BufferedReader(isr);
+            FileOutputStream fos = new FileOutputStream("ReaderDemo1.txt");
+            OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
+            BufferedWriter bw = new BufferedWriter(osw);
+            //  读取数据
+            int n = 0;
+            char[] charBuffer = new char[10];
+
+            //  第一种读取方法
+            /*
+            while((n = isr.read())!= -1){
+                System.out.print((char) n);
+            }
+            */
+
+            //  第二种读取方法
+            /*
+            while((n = isr.read(charBuffer)) != -1){
+                String s = new String(charBuffer,0, n);
+                System.out.print(s);
+            }
+            */
+            // 输入方法
+
+            while((n = br.read(charBuffer)) != -1){
+                bw.write(charBuffer, 0, n);
+                bw.flush();
+            }
+            fis.close();
+            fos.close();
+            isr.close();
+            osw.close();
+            br.close();
+            bw.close();
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
+
+
+    }
+}
+
+```
+
+
+
+### 对象的序列化与反序列化
+
+
+
+> #### 对象序列化
+>
+> 举例：
+>
+> > 在使用即时通讯软件聊天，我们往往不会只传递单一的文本消息，而是需要传输包括但不限于如：IP、Port、昵称、聊天信息。
+>
+> 对象序列化步骤：
+>
+> > 1. 创建一个类，继承 Serizlizable 接口
+> > 2. 创建对象
+> > 3. 将对象写入文件
+> > 4. 从文件读取对象信息
+
+
+
+### 对象输入流与输出流
+
++ 对象的读写涉及到 ObjectInputStream（对象输入流） 和 ObjectOutputStream（对象输出流）
