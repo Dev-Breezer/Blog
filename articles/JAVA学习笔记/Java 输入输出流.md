@@ -537,9 +537,56 @@ public class ReaderDemo {
 > > 2. 创建对象
 > > 3. 将对象写入文件
 > > 4. 从文件读取对象信息
+>
+> - **对象序列化：把Java对象转换为字节序列的过程。**
+>
+> - **反序列化∶把字节序列恢复为Java对象的过程。**
 
 
 
-### 对象输入流与输出流
+#### 对象输入流与输出流
+
+
 
 + 对象的读写涉及到 ObjectInputStream（对象输入流） 和 ObjectOutputStream（对象输出流）
+  
+
+```java
+package com.demo.serial;
+
+import java.io.*;
+
+public class GoodsTest {
+    public static void main(String[] args) {
+        Goods goods1 = new Goods("gd001", "电脑", 3000);
+        try {
+            FileOutputStream fos = new FileOutputStream("helloworld.txt");
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            FileInputStream fis = new FileInputStream("helloworld.txt");
+            ObjectInputStream ois = new ObjectInputStream(fis);
+
+            //  将对象信息写入文件
+            oos.writeObject(goods1);
+            oos.writeBoolean(true);
+            oos.flush();
+            fos.close();
+            oos.close();
+
+            //  读取对象信息
+            try {
+                Goods goods = (Goods) ois.readObject();
+                System.out.println(goods);
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+            System.out.println(ois.readBoolean());
+            fos.close();
+            oos.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
+    }
+}
