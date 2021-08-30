@@ -1,11 +1,9 @@
 # Java学习笔记
 
 
-![Blog-learing-blue](C:\Users\Wen\Desktop\Blog-learing-blue.svg)	![Blog-Java学习-green](C:\Users\Wen\Desktop\Blog-Java学习-green.svg)	 ![Blog-后端开发-important](C:\Users\Wen\Desktop\Blog-后端开发-important.svg)
 
 
-
-### Java 基础系列
+### Java 基础系列👍
 
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%A0%87%E8%AF%86%E7%AC%A6.md">Java 标识符</a>
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md">Java 数据类型</a>
@@ -30,7 +28,7 @@
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%95%B0%E7%BB%84.md">Java 数组</a>
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%96%B9%E6%B3%95.md">Java 方法</a>  
 
-###  Java 面向对象
+###  Java 面向对象👍
 
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1.md">Java 类和对象</a>
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E5%8C%96%E4%B8%8E%20new%20%E5%85%B3%E9%94%AE%E5%AD%97.md">Java 对象实例化与 new 关键字</a>
@@ -51,7 +49,7 @@
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%BC%82%E5%B8%B8.md">Java 异常</a>
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%AD%97%E7%AC%A6%E4%B8%B2.md">Java 字符串</a>
 
-###  Java 集合
+###  Java 集合👍
 
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E9%9B%86%E5%90%88%E4%B9%8B%20ArrayList.md">Java 集合之 ArrayList</a>
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E9%9B%86%E5%90%88%E4%B9%8B%20HashSet.md">Java 集合之 HashSet</a>
@@ -59,21 +57,12 @@
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E9%9B%86%E5%90%88%E6%8E%92%E5%BA%8F.md">Java 集合排序</a>
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E6%B3%9B%E5%9E%8B.md">Java 泛型</a>
 
-###  Java 多线程
+###  Java 多线程👍
 
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E5%A4%9A%E7%BA%BF%E7%A8%8B.md">Java 多线程</a>
 
-###  Java I/O 流
+###  Java I/O 流👍
 
 
 + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Java%20%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%B5%81.md">Java 输入输出流</a>
 <a href=""></a>
-
-
-
- 
-
-## JavaScript学习笔记
-
-> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/Javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%88%9D%E8%AF%86JavaScript%EF%BC%88%E4%B8%80%EF%BC%89.md">初识JavaScript（一）</a>
-> + <a href="https://github.com/Dev-Breezer/Blog/blob/main/articles/Javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%88%9D%E8%AF%86JavaScript%EF%BC%88%E4%BA%8C%EF%BC%89.md">初识JavaScript（二）</a>
